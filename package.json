@@ -1,0 +1,26 @@
+{
+  "name": "demonode",
+  "version": "1.0.1",
+  "description": "Demo App",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenSyntax/demoNode.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenSyntax/demoNode/issues"
+  },
+  "homepage": "https://github.com/greenSyntax/demoNode#readme"
+}
