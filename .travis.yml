@@ -1,9 +1,7 @@
+language: node_js
+node_js:
+  - "5"
 before_script:
   - npm install
-language: node_js
-env:
-  - PORT=7071
-node_js:
-  - "5.1"
-  - "4"
-  - "0.12"
+script:
+  - node app.js
