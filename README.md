@@ -1,8 +1,8 @@
-# demoNode
-## Node Codepad
+
+## NodeJS Notes
 
 ### Module Http
-Used to create Http server.
+Used to create Http server (http_server.js)
 
 ```javascript
 
@@ -21,5 +21,5 @@ server.listen(3000);
 
 #### Points
 * called ***createServer()*** method which takes closure function for callback along with request and response parameter.
-* writeHead() method takes status-code and header dictionary.
-* end() method takes body content of response.
+* ***writeHead()*** method takes status-code and header dictionary.
+* ***end()*** method takes body content of response.
