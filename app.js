@@ -1,20 +1,11 @@
-// const http = require('http');
-//
-// // Constants
-// const hostName = "127.0.0.1";
-// const portNumber = 7073;
-//
-// // Create Server
-// const server = http.createServer(function(req, res){
-//
-//   res.statusCode = 200;
-//   res.setHeader("Content-Type", "text/plain");
-//   res.end("Hello Green Syntax");
-// });
-//
-// server.listen(portNumber, function(){
-//
-//   console.log("Server Started... ");
-// });
 
-console.log("Hello green");
+var http = require('http');
+
+var server = http.createServer(function(request, response){
+
+  response.writeHead(200, {'Content-Type':'text/html'});
+  response.end("Hello NodJS :)");
+
+});
+
+server.listen(3000);
