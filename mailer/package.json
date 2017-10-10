@@ -1,0 +1,14 @@
+{
+  "name": "mailerdemo",
+  "version": "1.0.1",
+  "description": "Mail Demo App ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Kumar Ravi",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.1.3"
+  }
+}
