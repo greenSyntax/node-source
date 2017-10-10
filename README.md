@@ -44,4 +44,5 @@ console.log(path.query.post);
 ```
 
 #### Points
-* You can use ***path.query*** . It'll help you to identify the request and query string.
+* ***path.pathname*** return the valid page name
+* You can use ***path.query*** . It'll help you to identify the query string.
