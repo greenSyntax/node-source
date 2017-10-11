@@ -6,7 +6,7 @@ var transpoter = mailer.createTransport({
   secure: false,
   auth: {
       user: 'support@greensyntax.co.in',
-      pass: 'xxx'// Your password
+      pass: 'p@ssword@support' // Your Password
   }
 });
 
